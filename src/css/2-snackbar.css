@@ -1,79 +1,60 @@
-.container {
-  padding: 36px 156px;
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-
-.delay-label {
+.input-label {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  gap: 8px;
   margin-bottom: 16px;
-  width: fit-content;
 }
-
-.delay-label input {
-  margin-top: 8px;
+.input-delay {
+  width: 342px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-radius: 4px;
   border: 1px solid #808080;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   border-radius: 4px;
-  width: 360px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding: 8px 16px;
-}
-
-.delay-label input:hover {
-  border-color: #000;
-}
-
-.delay-label input:focus {
-  border-color: #4e75ff;
-}
-
-.form fieldset {
-  border-radius: 4px;
-  width: 362px;
-  padding: 24px 48px 12px;
+  border: 1px solid #808080;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 48px;
+  margin-bottom: 24px;
 }
-
-.form fieldset:hover {
-  border-color: #000000a1;
+legend {
+  margin-left: 28px;
+  text-align: start;
+  margin-bottom: 24px;
 }
-
-.form fieldset label {
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
+fieldset label {
+  margin-bottom: 8px;
 }
-
-.form fieldset label input {
-  border: 2px solid #757575;
-  border-radius: 14px;
-  width: 20px;
-  height: 20px;
-}
-
-.form button {
-  border-radius: 8px;
-  padding: 8px 16px;
+form button {
   width: 360px;
-  height: 40px;
-  background: #4e75ff;
-  margin-left: 0;
-  margin-top: 24px;
-  font-weight: 500;
+  padding: 8px 99px;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border-radius: 8px;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
+  border: none;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form button:hover {
-  background: #6c8cff;
+form button:hover,
+form button:focus {
+  background-color: #6c8cff;
 }
