@@ -7,7 +7,6 @@ const form = document.querySelector('.form');
 const inputDelay = document.querySelector("[name='delay']");
 const inputFulfilled = document.querySelector("[value='fulfilled']");
 const inputRejected = document.querySelector("[value='rejected']");
-const button = document.querySelector('.form button');
 
 form.addEventListener('submit', event => {
   event.preventDefault();

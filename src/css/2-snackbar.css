@@ -1,3 +1,6 @@
+.main-title {
+  margin-bottom: 40px;
+}
 .form {
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +18,7 @@
   margin-bottom: 16px;
 }
 .input-delay {
-  width: 342px;
+  width: 360px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
