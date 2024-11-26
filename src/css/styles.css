@@ -20,3 +20,9 @@
 input {
   outline: none;
 }
+
+.menu {
+  padding: 16px 24px;
+  color: darkolivegreen;
+  font-size: 24px;
+}
